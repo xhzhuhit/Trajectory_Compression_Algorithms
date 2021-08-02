@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-02T09:48:48.385Z" agent="5.0 (Windows)" etag="rEcbayk4msoh_idJ3HLu" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-02T09:53:06.089Z" agent="5.0 (Windows)" etag="c-M3ZjhA18uY0cvIWKHx" version="14.6.5" type="github">
   <diagram id="iU1haSfVSD4Kp0jXieJj" name="Page-1">
     <mxGraphModel dx="1021" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,8 +82,16 @@
         <mxCell id="vLVgJYE80W-G5NcFMN8--20" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="300" width="40" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="vLVgJYE80W-G5NcFMN8--63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="vLVgJYE80W-G5NcFMN8--23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vLVgJYE80W-G5NcFMN8--23" value="multiframe map-match" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="360" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vLVgJYE80W-G5NcFMN8--66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.404;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="vLVgJYE80W-G5NcFMN8--31" target="vLVgJYE80W-G5NcFMN8--65">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vLVgJYE80W-G5NcFMN8--31" value="&lt;div&gt;Visual Odom&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="680" y="510" width="220" height="60" as="geometry" />
@@ -123,6 +131,12 @@
         </mxCell>
         <mxCell id="vLVgJYE80W-G5NcFMN8--61" value="HD data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="540" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vLVgJYE80W-G5NcFMN8--64" value="&lt;div&gt;road_level_result&lt;/div&gt;&lt;div&gt;lane_level_result&lt;/div&gt;&lt;div&gt;in_lane_pose&lt;/div&gt;&lt;div&gt;abs_pose&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="620" width="135" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vLVgJYE80W-G5NcFMN8--65" value="abs_pose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="735" y="620" width="135" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
